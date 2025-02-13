@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { CategoriesComponent } from "../categories/categories.component";
 
 @Component({
   selector: 'app-about-us',
-  imports: [],
+  imports: [CategoriesComponent],
   templateUrl: './about-us.component.html',
   styleUrl: './about-us.component.scss'
 })
